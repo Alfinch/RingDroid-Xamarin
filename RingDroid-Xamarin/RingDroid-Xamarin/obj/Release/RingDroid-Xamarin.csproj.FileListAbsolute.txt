@@ -1,0 +1,4 @@
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\bin\Release\RingDroid-Xamarin.dll
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\bin\Release\RingDroid-Xamarin.pdb
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\obj\Release\RingDroid-Xamarin.dll
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\obj\Release\RingDroid-Xamarin.pdb

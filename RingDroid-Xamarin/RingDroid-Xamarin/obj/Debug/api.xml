@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.ringdroid">
+<class abstract="false" deprecated="not deprecated" extends="android.app.Dialog" extends-generic-aware="android.app.Dialog" final="false" name="AfterSaveActionDialog" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="AfterSaveActionDialog" static="false" type="com.ringdroid.AfterSaveActionDialog" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.os.Message">
+</parameter>
+</constructor>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AfterSaveActionDialog.1" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AfterSaveActionDialog.2" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AfterSaveActionDialog.3" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.ringdroid.BuildConfig" visibility="public">
+</constructor>
+<field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.ringdroid&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="20703" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.app.Dialog" extends-generic-aware="android.app.Dialog" final="false" name="FileSaveDialog" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="FileSaveDialog" static="false" type="com.ringdroid.FileSaveDialog" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.content.res.Resources">
+</parameter>
+<parameter name="p2" type="java.lang.String">
+</parameter>
+<parameter name="p3" type="android.os.Message">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="KindToName" native="false" return="java.lang.String" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="FILE_KIND_ALARM" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FILE_KIND_MUSIC" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FILE_KIND_NOTIFICATION" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="FILE_KIND_RINGTONE" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FileSaveDialog.1" static="false" visibility="">
+<implements name="android.widget.AdapterView.OnItemSelectedListener" name-generic-aware="android.widget.AdapterView.OnItemSelectedListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onItemSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AdapterView&lt;?&gt;">
+</parameter>
+<parameter name="p1" type="android.view.View">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="long">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onNothingSelected" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.widget.AdapterView&lt;?&gt;">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FileSaveDialog.2" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FileSaveDialog.3" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.widget.ImageView" extends-generic-aware="android.widget.ImageView" final="false" name="MarkerView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="MarkerView" static="false" type="com.ringdroid.MarkerView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="setListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView.MarkerListener">
+</parameter>
+</method>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="MarkerView.MarkerListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="markerDraw" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="markerEnter" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="markerFocus" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="markerKeyUp" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="markerLeft" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="markerRight" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="markerTouchEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="markerTouchMove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="markerTouchStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="android.app.Activity" extends-generic-aware="android.app.Activity" final="false" name="RingdroidEditActivity" static="false" visibility="public">
+<implements name="com.ringdroid.MarkerView.MarkerListener" name-generic-aware="com.ringdroid.MarkerView.MarkerListener">
+</implements>
+<implements name="com.ringdroid.WaveformView.WaveformListener" name-generic-aware="com.ringdroid.WaveformView.WaveformListener">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="RingdroidEditActivity" static="false" type="com.ringdroid.RingdroidEditActivity" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerDraw" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerEnter" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerFocus" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerKeyUp" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerLeft" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerRight" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerTouchEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerTouchMove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="markerTouchStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.MarkerView">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onAbout" native="false" return="void" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.app.Activity">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCreate" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.os.Bundle">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waveformDraw" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waveformFling" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waveformTouchEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waveformTouchMove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waveformTouchStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waveformZoomIn" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="waveformZoomOut" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="EDIT" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.ringdroid.action.EDIT&quot;" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.10" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.11" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.12" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.13" static="false" visibility="">
+<implements name="com.ringdroid.SamplePlayer.OnCompletionListener" name-generic-aware="com.ringdroid.SamplePlayer.OnCompletionListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCompletion" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.14" static="false" visibility="">
+<implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" final="false" name="RingdroidEditActivity.15" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.15.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.15.2" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.15.3" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.15.4" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.15.5" static="false" visibility="">
+<implements name="com.ringdroid.soundfile.SoundFile.ProgressListener" name-generic-aware="com.ringdroid.soundfile.SoundFile.ProgressListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="reportProgress" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.15.6" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.15.7" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.15.8" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.16" static="false" visibility="">
+<implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.17" static="false" visibility="">
+<implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" final="false" name="RingdroidEditActivity.18" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="android.os.Handler" extends-generic-aware="android.os.Handler" final="false" name="RingdroidEditActivity.19" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.2" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.20" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.21" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.22" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.23" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.24" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.25" static="false" visibility="">
+<implements name="android.text.TextWatcher" name-generic-aware="android.text.TextWatcher">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="afterTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.text.Editable">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="beforeTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onTextChanged" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.CharSequence">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.3" static="false" visibility="">
+<implements name="android.content.DialogInterface.OnCancelListener" name-generic-aware="android.content.DialogInterface.OnCancelListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onCancel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.4" static="false" visibility="">
+<implements name="com.ringdroid.soundfile.SoundFile.ProgressListener" name-generic-aware="com.ringdroid.soundfile.SoundFile.ProgressListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="reportProgress" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" final="false" name="RingdroidEditActivity.5" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.5.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.5.2" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.5.3" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.5.4" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.6" static="false" visibility="">
+<implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.7" static="false" visibility="">
+<implements name="android.content.DialogInterface.OnClickListener" name-generic-aware="android.content.DialogInterface.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.DialogInterface">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.8" static="false" visibility="">
+<implements name="com.ringdroid.soundfile.SoundFile.ProgressListener" name-generic-aware="com.ringdroid.soundfile.SoundFile.ProgressListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="reportProgress" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.8.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" final="false" name="RingdroidEditActivity.9" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.9.1" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.9.2" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.9.3" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidEditActivity.9.4" static="false" visibility="">
+<implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="RingdroidSelectActivity.2.1" static="false" visibility="">
+<implements name="android.view.View.OnClickListener" name-generic-aware="android.view.View.OnClickListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onClick" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.view.View">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SamplePlayer" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="SamplePlayer" static="false" type="com.ringdroid.SamplePlayer" visibility="public">
+<parameter name="p0" type="java.nio.ShortBuffer">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="SamplePlayer" static="false" type="com.ringdroid.SamplePlayer" visibility="public">
+<parameter name="p0" type="com.ringdroid.soundfile.SoundFile">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getCurrentPosition" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isPaused" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isPlaying" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="pause" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="release" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="seekTo" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setOnCompletionListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.SamplePlayer.OnCompletionListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="start" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="stop" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SamplePlayer.1" static="false" visibility="">
+<implements name="android.media.AudioTrack.OnPlaybackPositionUpdateListener" name-generic-aware="android.media.AudioTrack.OnPlaybackPositionUpdateListener">
+</implements>
+<method abstract="false" deprecated="not deprecated" final="false" name="onMarkerReached" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.media.AudioTrack">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="onPeriodicNotification" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.media.AudioTrack">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Thread" extends-generic-aware="java.lang.Thread" final="false" name="SamplePlayer.2" static="false" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SamplePlayer.OnCompletionListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onCompletion" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SongMetadataReader" static="false" visibility="public">
+<field deprecated="not deprecated" final="false" name="GENRES_URI" static="false" transient="false" type="android.net.Uri" type-generic-aware="android.net.Uri" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mActivity" static="false" transient="false" type="android.app.Activity" type-generic-aware="android.app.Activity" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mAlbum" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mArtist" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mFilename" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mGenre" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mTitle" static="false" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="false" name="mYear" static="false" transient="false" type="int" type-generic-aware="int" visibility="public" volatile="false">
+</field>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.View" extends-generic-aware="android.view.View" final="false" name="WaveformView" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="WaveformView" static="false" type="com.ringdroid.WaveformView" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<parameter name="p1" type="android.util.AttributeSet">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="canZoomIn" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="canZoomOut" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="drawWaveformLine" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<parameter name="p0" type="android.graphics.Canvas">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+<parameter name="p4" type="android.graphics.Paint">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getEnd" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getOffset" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getStart" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getZoomLevel" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="hasSoundFile" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isInitialized" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="maxPos" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="millisecsToPixels" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="pixelsToMillisecs" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="pixelsToSeconds" native="false" return="double" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="recomputeHeights" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="secondsToFrames" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="secondsToPixels" native="false" return="int" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.WaveformView.WaveformListener">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setParameters" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setPlayback" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setSoundFile" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.soundfile.SoundFile">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setZoomLevel" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="zoomIn" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="zoomOut" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="android.view.GestureDetector.SimpleOnGestureListener" extends-generic-aware="android.view.GestureDetector.SimpleOnGestureListener" final="false" name="WaveformView.1" static="false" visibility=""/>
+<class abstract="false" deprecated="not deprecated" extends="android.view.ScaleGestureDetector.SimpleOnScaleGestureListener" extends-generic-aware="android.view.ScaleGestureDetector.SimpleOnScaleGestureListener" final="false" name="WaveformView.2" static="false" visibility=""/>
+<interface abstract="true" deprecated="not deprecated" final="false" name="WaveformView.WaveformListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="waveformDraw" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="waveformFling" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="waveformTouchEnd" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="waveformTouchMove" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="waveformTouchStart" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="float">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="waveformZoomIn" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="waveformZoomOut" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+</package>
+<package name="com.ringdroid.soundfile">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Atom" static="false" visibility="">
+<constructor deprecated="not deprecated" final="false" name="Atom" static="false" type="com.ringdroid.soundfile.Atom" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="Atom" static="false" type="com.ringdroid.soundfile.Atom" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="byte">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getBytes" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getData" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSize" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTypeInt" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getTypeStr" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="setData" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="byte[]">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="MP4Header" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="MP4Header" static="false" type="com.ringdroid.soundfile.MP4Header" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int[]">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMP4Header" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getMP4Header" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int[]">
+</parameter>
+<parameter name="p3" type="int">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SoundFile" static="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="false" name="WriteFile" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.io.File">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="WriteFile" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.io.File">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="WriteWAVFile" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.io.File">
+</parameter>
+<parameter name="p1" type="float">
+</parameter>
+<parameter name="p2" type="float">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="WriteWAVFile" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="java.io.File">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.ringdroid.soundfile.SoundFile" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="com.ringdroid.soundfile.SoundFile.ProgressListener">
+</parameter>
+<exception name="FileNotFoundException" type="java.io.FileNotFoundException">
+</exception>
+<exception name="IOException" type="java.io.IOException">
+</exception>
+<exception name="SoundFile.InvalidInputException" type="com.ringdroid.soundfile.SoundFile.InvalidInputException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getAvgBitrateKbps" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getChannels" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFileSizeBytes" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFiletype" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getFrameGains" native="false" return="int[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getNumFrames" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getNumSamples" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSampleRate" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSamples" native="false" return="java.nio.ShortBuffer" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSamplesPerFrame" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getSupportedExtensions" native="false" return="java.lang.String[]" static="true" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isFilenameSupported" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="record" native="false" return="com.ringdroid.soundfile.SoundFile" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="com.ringdroid.soundfile.SoundFile.ProgressListener">
+</parameter>
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Exception" extends-generic-aware="java.lang.Exception" final="false" name="SoundFile.InvalidInputException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SoundFile.InvalidInputException" static="false" type="com.ringdroid.soundfile.SoundFile.InvalidInputException" visibility="public">
+<parameter name="p1" type="java.lang.String">
+</parameter>
+</constructor>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SoundFile.ProgressListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="reportProgress" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="double">
+</parameter>
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="WAVHeader" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="WAVHeader" static="false" type="com.ringdroid.soundfile.WAVHeader" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getWAVHeader" native="false" return="byte[]" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getWAVHeader" native="false" return="byte[]" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+<parameter name="p2" type="int">
+</parameter>
+</method>
+</class>
+</package>
+</api>

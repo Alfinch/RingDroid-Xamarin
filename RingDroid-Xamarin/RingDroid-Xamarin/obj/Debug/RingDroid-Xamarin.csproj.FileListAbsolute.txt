@@ -1,0 +1,5 @@
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\obj\Debug\RingDroid-Xamarin.csprojResolveAssemblyReference.cache
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\bin\Debug\RingDroid-Xamarin.dll
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\bin\Debug\RingDroid-Xamarin.pdb
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\obj\Debug\RingDroid-Xamarin.dll
+C:\Users\Alfie\Documents\GitHub\RingDroid-Xamarin\RingDroid-Xamarin\RingDroid-Xamarin\obj\Debug\RingDroid-Xamarin.pdb
